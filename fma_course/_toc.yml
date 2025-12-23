@@ -1,0 +1,10 @@
+format: jb-book
+root: 00_intro
+chapters:
+- file: 01_basics
+- file: 02_data_structures
+- file: 03_control_flow
+- file: 04_functions_modules
+- file: 05_data_analysis_pandas
+- file: 06_visualization
+- file: 07_practical_examples
