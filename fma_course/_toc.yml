@@ -1,13 +1,30 @@
 format: jb-book
 root: 00_intro
-chapters:
-- file: 01_basics
-- file: 02_data_structures
-- file: 03_control_flow
-- file: 04_functions_modules
-- file: 05_data_analysis_pandas
-- file: 06_visualization
-- file: 07_practical_examples
-- file: 08_error_handling_debugging
-- file: 09_numpy_intro
-- file: 10_data_io
+parts:
+  - caption: Grundlagen
+    chapters:
+      - file: 01_basics
+      - file: 02_data_structures
+      - file: 03_control_flow
+      - file: 04_functions_modules
+  - caption: Datenarbeit
+    chapters:
+      - file: 05_data_analysis_pandas
+      - file: 06_visualization
+      - file: 07_practical_examples
+  - caption: Robustheit und Werkzeuge
+    chapters:
+      - file: 08_error_handling_debugging
+      - file: 09_numpy_intro
+      - file: 10_data_io
+  - caption: Vertiefung
+    chapters:
+      - file: 11_classes
+      - file: 12_numbers
+      - file: 13_ai_programming
+  - caption: Data Science Essentials
+    chapters:
+      - file: 14_sql_basics
+      - file: 15_eda_methodology
+      - file: 16_statistics_intro
+      - file: 17_machine_learning_intro
