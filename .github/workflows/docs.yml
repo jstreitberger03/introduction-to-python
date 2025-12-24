@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install jupyter-book pandas numpy matplotlib scipy
+        pip install jupyter-book pandas numpy matplotlib scipy scikit-learn
 
     - name: Build FMA Course Book
       run: |
