@@ -8,3 +8,6 @@ chapters:
 - file: 05_data_analysis_pandas
 - file: 06_visualization
 - file: 07_practical_examples
+- file: 08_error_handling_debugging
+- file: 09_numpy_intro
+- file: 10_data_io

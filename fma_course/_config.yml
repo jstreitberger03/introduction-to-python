@@ -1,0 +1,17 @@
+# Book settings
+title: Python for FMA
+author: Julian Streitberger
+logo: logo.png
+
+execute:
+  execute_notebooks: off
+
+parse:
+  myst_enable_extensions:
+    - html_image
+    - amsmath
+    - dollarmath
+
+exclude_patterns:
+  - '.venv'
+  - '.ipynb_checkpoints'
