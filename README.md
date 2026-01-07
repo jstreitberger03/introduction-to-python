@@ -51,4 +51,4 @@ This repository contains materials for Python courses, organized into clear, beg
 
 ### Next steps
 - Launch `jupyter lab` or `jupyter notebook` in the `fma_course/` folder.
-- Install missing packages if needed: `pip install -r requirements.txt` (if present) or individually `pip install pandas numpy matplotlib`.
+- Install missing packages if needed: `pip install pandas numpy matplotlib`.
